@@ -1,9 +1,0 @@
-
-
- {
-  "load_from_llm_and_tools": true,
-  "_type": "conversational-react-description",
-  "prompt": "./weather_agent/templates.py",
-  "ai_prefix": "AI Agent",
-  "human_prefix": "Human"
-  }

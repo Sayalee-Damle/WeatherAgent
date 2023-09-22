@@ -1,11 +1,11 @@
 # Description
-Get current weather for a city
+Get current weather nd temperature for a city
 
 # Packages used
 1. openai
 2. langchain
 3. python-dotenv
-4. chromaDB
+
 
 # Create project
 ## Installations prerequisites

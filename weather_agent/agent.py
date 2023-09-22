@@ -26,11 +26,7 @@ print(ques)
 agent_chain = initialize_agent(
     tools=tools, llm=Config.llm, agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION, verbose=True, max_iterations = 3
 )
-
-
 #agent_chain = initialize_agent(tools, llm=Config.llm, verbose=True, agent_path= "./weather_agent/weather_agent.json")
-
-
 agent_chain.run(ques)
 
 #agent_chain.run("check whether temperature is being shown")
