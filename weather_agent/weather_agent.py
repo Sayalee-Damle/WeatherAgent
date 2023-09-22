@@ -12,7 +12,7 @@ def location():
     return loc
 
 def weather_loc(loc):
-    query = "What is the current temperaure in  "+ loc + " today?"
+    query = "What is the current temperaure and weather(Sunny/Rainy/Windy) in  "+ loc + " today?"
     return query
 
 weather_agent = [{
